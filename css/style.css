@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    width: 800px;
+    margin: 0 auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+tr:first-child {
+    text-align: center;
+}
+
+caption {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
