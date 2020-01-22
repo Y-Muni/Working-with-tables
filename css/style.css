@@ -7,6 +7,11 @@ table {
 td {
     border: 1px solid black;
     padding: 8px;
+    text-align: center;
+}
+
+td:first-child {
+    text-align: left;
 }
 
 tr:first-child {
@@ -15,6 +20,9 @@ tr:first-child {
 
 caption {
     font-size: 20px;
-    text-transform: uppercase;
-    margin-bottom: 10px;
+    text-transform: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    text-align: center;
 }
+
