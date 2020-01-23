@@ -1,20 +1,12 @@
 table {
     border-collapse: collapse;
-    width: 800px;
+    width: 530px;
     margin: 0 auto;
 }
 
 td {
     border: 1px solid black;
     padding: 8px;
-    text-align: center;
-}
-
-td:first-child {
-    text-align: left;
-}
-
-tr:first-child {
     text-align: center;
 }
 
@@ -26,3 +18,6 @@ caption {
     text-align: center;
 }
 
+.bold {
+    font-weight: bold;
+}
